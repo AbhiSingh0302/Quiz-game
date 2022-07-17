@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: 'Edu QLD Beginner', cursive;
+}
+
+html{
+    font-size: 20px;
+}
+
+header{
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    margin-bottom: 2rem;  
+}
+
+button{
+    font-size: 1rem;
+    background-color: white;
+    border: 2px solid black;
+    padding: 0.5rem;
+    margin: 3rem;
+    width: 10rem;
+}
+
+button:hover{
+    background-color: rgb(48 155 64);
+}
