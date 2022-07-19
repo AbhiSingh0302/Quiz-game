@@ -4,28 +4,38 @@
     box-sizing: border-box;
     text-align: center;
     font-family: 'Edu QLD Beginner', cursive;
+    text-transform: capitalize;
+    
 }
 
 html{
     font-size: 20px;
+    background-image: url('cr.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+body{
+    background: rgba(255, 255, 255, 0.3);
 }
 
 header{
-    background-color: black;
-    color: white;
     padding: 1rem;
     margin-bottom: 2rem;  
+    border-bottom: 1px solid black;
 }
+
 
 button{
     font-size: 1rem;
-    background-color: white;
+    background-color: transparent;
     border: 2px solid black;
     padding: 0.5rem;
-    margin: 3rem;
+    margin: 2rem;
     width: 10rem;
 }
 
 button:hover{
     background-color: rgb(48 155 64);
 }
+
